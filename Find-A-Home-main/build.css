@@ -1,0 +1,152 @@
+.parent {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-top: 80px;
+
+  }
+  
+   .parent div {
+    flex: 1;
+    background-color: lightgoldenrodyellow;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 16px;
+    border-style: solid;
+    
+  }
+  
+   .btnparent {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  } 
+  
+ .btnparent button {
+    width: 350px;
+    padding: 28px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    background-color: goldenrod;
+    color: white;
+  } 
+
+    .six h1 {
+        text-align: center;
+        color:#222; 
+        font-size:60px;
+        font-weight:400;
+        text-transform: uppercase;
+        word-spacing: 1px; 
+        letter-spacing:2px; 
+        color:#c50000;
+      }
+      /* .six h1 span {
+        line-height:2em; padding-bottom:15px;
+        text-transform: none;
+        font-size:.7em;
+        font-weight: normal;
+        font-style: italic; font-family: "Playfair Display","Bookman",serif;
+        color:#999; letter-spacing:-0.005em; word-spacing:1px;
+        letter-spacing:none;
+      } */
+      .six h1:after, .six h1:before {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 45px;
+        height: 4px;
+        content: "";
+        right: 45px; 
+        margin:auto;
+        background-color: #ccc;
+      }
+      .six h1:before { 
+      background-color:#d78b8b;
+        left:45px; width:90px;
+      }
+      /* table { 
+        border: 1px solid black; 
+        margin-left: auto; 
+        margin-right: auto; 
+    } 
+      
+    input[type="button"] { 
+        width: 100%; 
+        padding: 20px 40px; 
+        background-color: green; 
+        color: white; 
+        font-size: 24px; 
+        font-weight: bold; 
+        border: none; 
+        border-radius: 5px; 
+    } 
+      
+    input[type="text"] { 
+        padding: 20px 30px; 
+        font-size: 24px; 
+        font-weight: bold; 
+        border: none; 
+        border-radius: 5px; 
+        border: 2px solid black; 
+    }  */
+    /* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e0e3eb;
+}
+.container {
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 10px 20px 20px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.display {
+  height: 80px;
+  width: 100%;
+  outline: none;
+  border: none;
+  text-align: right;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #000e1a;
+  pointer-events: none;
+}
+.buttons {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.buttons button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #eee;
+}
+.buttons button:active {
+  transform: scale(0.99);
+}
+.operator {
+  color: #2f9fff;
+}
